@@ -16,8 +16,6 @@ To run framwork you need:
 
 In order to execute the automation suite navigate to the Project directory within a Terminal window and run the command: **'mvn clean test'**.
 
-Report file can be found *'target/reports/test-report/index.html'*
-
 *Assumption:* Before run the suite an order with 4 id should be available or created for "Delete an order successfully" scenario. 
 
 The Endpoint do not return standard response. Especially for delete order the return message might change.
