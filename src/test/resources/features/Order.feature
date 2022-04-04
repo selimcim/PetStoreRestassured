@@ -1,3 +1,4 @@
+@Test
 Feature: Order Tests
   This feature includes tests that test the store order RESTFul services
 
