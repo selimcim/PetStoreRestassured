@@ -9,16 +9,6 @@ public class Order {
 	private boolean complete;
 	private String shipDate;
 
-	
-	public Order() {
-		setId(3);
-		setPetId(7);
-		setQuantity(1);
-		setComplete(true);
-		setStatus("placed");
-		setShipDate("2021-06-18T22:02:14.222Z");
-	}
-
 	public Order(Integer id, Integer petId, Integer quantity, String status, boolean complete, String shipDate) {
 		this.id = id;
 		this.petId = petId;
