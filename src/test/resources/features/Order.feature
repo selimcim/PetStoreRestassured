@@ -8,19 +8,12 @@ Feature: Order Tests
     Then the status code returns 200
     And pet order is completed and status set as "placed" successfully
 
-#  Scenario: An order for an nonexistent pet should not be completed by a user
-#    Given the endpoint is up
-#    When i post an order for a pet by orderId 100
-#    Then successful response code returns
-#    And unavailable pet order is not completed successfully
-#
-#
+
   Scenario: Display order details successfully
     Given the endpoint is up
     When i try to get order details by orderId 1
     Then order details should be able to displayed for orderId 1 successfully
-#
-#
+
   Scenario Outline: Details should not be displayed for nonexistent order id
     Given the endpoint is up
     When i try to get order details by orderId 400
